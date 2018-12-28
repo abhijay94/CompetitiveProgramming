@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//Function for fast calculation of power i.e. a ^ b
 int power(int a, int b) {
 	//base case
 	if (b == 0) {

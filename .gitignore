@@ -33,3 +33,7 @@
 
 #I/O files
 *.txt
+
+#Do not push reference doc and docx files
+*.doc
+*.docx

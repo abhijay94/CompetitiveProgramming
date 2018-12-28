@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//The n & (n-1) method for finding number of set bits - most efficient
 int setBitsCount(int a) {
 	int count = 0;
 	while (a > 0) {

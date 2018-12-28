@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//The & 1 method for finding number of set bits
+// Less efficient than n & (n-1) method
 void setBitsCount(int a) {
     int count = 0;
     while(a > 0) {
